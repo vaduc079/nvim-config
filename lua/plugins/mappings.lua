@@ -126,6 +126,7 @@ return {
             desc = "Declaration of current symbol",
             cond = "textDocument/declaration",
           },
+          ["gr"] = { "<cmd>Telescope lsp_references<cr>", desc = "LSP search references" },
         },
       },
     },
