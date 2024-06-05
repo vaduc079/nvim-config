@@ -26,6 +26,9 @@ return {
   -- { import = "astrocommunity.motion.mini-ai" },
   -- { import = "astrocommunity.motion.mini-move" },
 
+  -- DIAGNOSTICS
+  { import = "astrocommunity.diagnostics.trouble-nvim" },
+
   -- PROJECT --
   { import = "astrocommunity.project.project-nvim" },
 

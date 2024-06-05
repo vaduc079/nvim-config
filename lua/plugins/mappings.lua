@@ -73,10 +73,10 @@ return {
           ["<Leader>fp"] = { "<cmd>Telescope projects<cr>", desc = "Find projects" },
 
           -- Trouble --
-          ["<Leader>x"] = { desc = "Trouble" },
-          ["<Leader>xd"] = { "<cmd>TroubleToggle document_diagnostics<cr>", desc = "Toggle document diagnostics" },
-          ["<Leader>xw"] = { "<cmd>TroubleToggle workspace_diagnostics<cr>", desc = "Toggle workspace diagnostics" },
-          ["<Leader>xq"] = { "<cmd>TroubleToggle quickfix<cr>", desc = "Toggle quickfix" },
+          -- ["<Leader>x"] = { desc = "Trouble" },
+          -- ["<Leader>xd"] = { "<cmd>TroubleToggle document_diagnostics<cr>", desc = "Toggle document diagnostics" },
+          -- ["<Leader>xw"] = { "<cmd>TroubleToggle workspace_diagnostics<cr>", desc = "Toggle workspace diagnostics" },
+          -- ["<Leader>xq"] = { "<cmd>TroubleToggle quickfix<cr>", desc = "Toggle quickfix" },
           -- TroubleToggle lsp_*
           -- TroubleToggle loclist
           -- TroubleToggle telescope
