@@ -15,7 +15,8 @@ return {
   { import = "astrocommunity.pack.bash" },
   { import = "astrocommunity.pack.terraform" },
   { import = "astrocommunity.pack.docker" },
-  { import = "astrocommunity.pack.python-ruff" },
+  -- { import = "astrocommunity.pack.python-ruff" },
+  { import = "astrocommunity.pack.python" },
 
   -- EDITOR --
   { import = "astrocommunity.editing-support.rainbow-delimiters-nvim" },
