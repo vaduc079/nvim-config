@@ -13,5 +13,6 @@ vim.filetype.add {
   pattern = {
     -- ["~/%.config/foo/.*"] = "fooscript",
     [".*/%.config/sway/config%.d/.*"] = "swayconfig",
+    [".env.*"] = "sh",
   },
 }
