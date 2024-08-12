@@ -20,7 +20,7 @@ return {
 
   -- EDITOR --
   { import = "astrocommunity.editing-support.rainbow-delimiters-nvim" },
-  { import = "astrocommunity.debugging.nvim-bqf" },
+  { import = "astrocommunity.quickfix.nvim-bqf" },
   { import = "astrocommunity.lsp.lsp-signature-nvim" },
 
   -- MOTION --
