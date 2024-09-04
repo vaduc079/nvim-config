@@ -38,6 +38,5 @@ return {
   -- { import = "astrocommunity.git.neogit" },
 
   -- COLORSCHEME --
-  { import = "astrocommunity.colorscheme.catppuccin" },
   { import = "astrocommunity.colorscheme.kanagawa-nvim" },
 }
