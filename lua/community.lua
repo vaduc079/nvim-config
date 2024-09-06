@@ -23,6 +23,12 @@ return {
   { import = "astrocommunity.quickfix.nvim-bqf" },
   { import = "astrocommunity.lsp.lsp-signature-nvim" },
 
+  --COMPLETION
+  { import = "astrocommunity.completion.avante-nvim" },
+  -- dependencies of avante=-nvim
+  { import = "astrocommunity.markdown-and-latex.render-markdown-nvim" },
+  { import = "astrocommunity.media.img-clip-nvim" },
+
   -- MOTION --
   -- { import = "astrocommunity.motion.mini-ai" },
   -- { import = "astrocommunity.motion.mini-move" },
@@ -31,7 +37,6 @@ return {
   { import = "astrocommunity.diagnostics.trouble-nvim" },
 
   -- PROJECT --
-  { import = "astrocommunity.project.project-nvim" },
 
   -- GIT --
   { import = "astrocommunity.git.diffview-nvim" }, -- Maybe just install these plugins by yourself?
