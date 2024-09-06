@@ -37,6 +37,8 @@ return {
   { import = "astrocommunity.diagnostics.trouble-nvim" },
 
   -- PROJECT --
+  -- { import = "astrocommunity.project.projectmgr-nvim" },
+  -- { import = "astrocommunity.file-explorer.telescope-file-browser-nvim" },
 
   -- GIT --
   { import = "astrocommunity.git.diffview-nvim" }, -- Maybe just install these plugins by yourself?
