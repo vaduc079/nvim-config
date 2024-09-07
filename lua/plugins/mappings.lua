@@ -53,7 +53,7 @@ return {
           ["<Leader>tf"] = false,
           ["<Leader>th"] = false,
           -- Diffview
-          ["<Leader>td"] = { "<cmd>DiffviewOpen<cr>", desc = "Diffview" },
+          ["<Leader>td"] = { name = "Diffview" },
           ["<Leader>tdo"] = { "<cmd>DiffviewOpen<cr>", desc = "Open Diffview" },
           ["<Leader>tdh"] = { "<cmd>DiffviewFileHistory<cr>", desc = "Open current branch Git History" },
           ["<Leader>tdH"] = { "<cmd>DiffviewFileHistory %<cr>", desc = "Open current file Git History" },
@@ -68,18 +68,6 @@ return {
           ["2<C-'>"] = { "<cmd>2ToggleTerm direction=horizontal<cr>", desc = "Open second terminals" },
           ["3<C-'>"] = { "<cmd>3ToggleTerm direction=horizontal<cr>", desc = "Open third terminals" },
           ["4<C-'>"] = { "<cmd>4ToggleTerm direction=horizontal<cr>", desc = "Open fourth terminals" },
-
-          -- PROJECTS --
-          ["<Leader>fp"] = { "<cmd>Telescope projects<cr>", desc = "Find projects" },
-
-          -- Trouble --
-          -- ["<Leader>x"] = { desc = "Trouble" },
-          -- ["<Leader>xd"] = { "<cmd>TroubleToggle document_diagnostics<cr>", desc = "Toggle document diagnostics" },
-          -- ["<Leader>xw"] = { "<cmd>TroubleToggle workspace_diagnostics<cr>", desc = "Toggle workspace diagnostics" },
-          -- ["<Leader>xq"] = { "<cmd>TroubleToggle quickfix<cr>", desc = "Toggle quickfix" },
-          -- TroubleToggle lsp_*
-          -- TroubleToggle loclist
-          -- TroubleToggle telescope
 
           ["<Leader>n"] = false,
         },
