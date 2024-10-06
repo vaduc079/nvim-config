@@ -17,6 +17,8 @@ return {
   { import = "astrocommunity.pack.docker" },
   -- { import = "astrocommunity.pack.python-ruff" },
   { import = "astrocommunity.pack.python" },
+  { import = "astrocommunity.pack.yaml" },
+  { import = "astrocommunity.pack.sql" },
 
   -- EDITOR --
   { import = "astrocommunity.editing-support.rainbow-delimiters-nvim" },
