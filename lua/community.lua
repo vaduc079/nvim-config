@@ -8,14 +8,13 @@ return {
   -- LANGUAGES --
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.pack.html-css" },
-  { import = "astrocommunity.pack.vue" },
+  -- { import = "astrocommunity.pack.vue" },
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.json" },
   { import = "astrocommunity.pack.markdown" },
   { import = "astrocommunity.pack.bash" },
   { import = "astrocommunity.pack.terraform" },
   { import = "astrocommunity.pack.docker" },
-  -- { import = "astrocommunity.pack.python-ruff" },
   { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.pack.yaml" },
   -- { import = "astrocommunity.pack.sql" },
@@ -26,10 +25,10 @@ return {
   { import = "astrocommunity.lsp.lsp-signature-nvim" },
 
   --COMPLETION
-  { import = "astrocommunity.completion.avante-nvim" },
+  -- { import = "astrocommunity.completion.avante-nvim" },
   -- dependencies of avante=-nvim
-  { import = "astrocommunity.markdown-and-latex.render-markdown-nvim" },
-  { import = "astrocommunity.media.img-clip-nvim" },
+  -- { import = "astrocommunity.markdown-and-latex.render-markdown-nvim" },
+  -- { import = "astrocommunity.media.img-clip-nvim" },
 
   -- MOTION --
   -- { import = "astrocommunity.motion.mini-ai" },
